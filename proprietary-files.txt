@@ -9,11 +9,11 @@ bin/drmdiagapp
 bin/ds_fmc_appd
 bin/fast-dormancy
 bin/fota-snoop
+bin/hci_qcomm_init
 bin/idd-logreader
 bin/iddd
 bin/illumination_service
 bin/iw
-bin/hci_qcomm_init
 bin/mm-pp-daemon
 bin/mpdecision
 bin/netmgrd
@@ -221,6 +221,7 @@ lib/liboemcamera.so
 lib/libpin-cache.so
 lib/libprofiler_msmadc.so
 lib/libprotobuf-c.so
+lib/libqc-opt.so
 lib/libqcci_adc.so
 lib/libqdi.so
 lib/libqdp.so
