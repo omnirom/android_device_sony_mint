@@ -215,6 +215,7 @@ lib/libmm-abl.so
 lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
 lib/libmmcamera_statsproc30.so
+lib/libmm-color-convertor.so
 lib/libmmjpeg.so
 lib/libmpl.so
 lib/libnetmgr.so
