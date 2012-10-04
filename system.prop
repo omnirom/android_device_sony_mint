@@ -79,8 +79,6 @@ ro.opengles.version=131072
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=30
 
-ro.hardware.respect_als=true
-
 # System props for audio
 persist.audio.fluence.mode=endfire
 persist.audio.vr.enable=false
