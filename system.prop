@@ -56,6 +56,9 @@ ro.bluetooth.remote.autoconnect=true
 # 0: Always discoverable
 debug.bt.discoverable_time=0
 
+# Make keys in CWM repeatable
+ro.cwm.enable_key_repeat=true
+
 #system prop for switching gps driver to qmi
 persist.gps.qmienabled=true
 
