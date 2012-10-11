@@ -12,8 +12,6 @@ bin/fm_qsoc_patches
 bin/fmconfig
 bin/fota-snoop
 bin/hci_qcomm_init
-bin/idd-logreader
-bin/iddd
 bin/illumination_service
 bin/iw
 bin/mm-pp-daemon
