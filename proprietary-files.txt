@@ -162,7 +162,6 @@ lib/hw/gps.sony.so
 lib/hw/nfc.msm8960.so
 lib/hw/sensors.default.so
 lib/libC2D2.so
-lib/libC2D3.so
 lib/libMPU3050.so
 lib/libMiscTaAccessor.so
 lib/libOpenVG.so
