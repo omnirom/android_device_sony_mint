@@ -187,6 +187,7 @@ lib/libcameraextensionclient.so
 lib/libcameraextensionjni.so
 lib/libcameraextensionservice.so
 lib/libcameralight.so
+lib/libcneapiclient.so
 lib/libcneqmiutils.so
 lib/libcneutils.so
 lib/libcurl.so
