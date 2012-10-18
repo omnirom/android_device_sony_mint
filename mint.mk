@@ -32,32 +32,36 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-   $(LOCAL_PATH)/config/sensors.conf:system/etc/sensors.conf \
-   $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
-   $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
+    $(LOCAL_PATH)/config/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
+    $(LOCAL_PATH)/config/sensors.conf:system/etc/sensors.conf \
+    $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
+    $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
+
+# sysmon conf
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/sysmon.cfg:system/etc/sysmon.cfg
 
 # USB function switching
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
+    $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
 
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
-   $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
+    $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
+    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
 
 # Recovery bootstrap (device-specific part)
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/recovery/bootrec-device:root/sbin/bootrec-device \
-   $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab
+    $(LOCAL_PATH)/recovery/bootrec-device:root/sbin/bootrec-device \
+    $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/clearpad.idc:system/usr/idc/clearpad.idc \
-   $(LOCAL_PATH)/config/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
-   $(LOCAL_PATH)/config/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl \
-   $(LOCAL_PATH)/config/pmic8xxx_pwrkey.kl:system/usr/keylayout/pmic8xxx_pwrkey.kl \
-   $(LOCAL_PATH)/config/simple_remote_appkey.kl:system/usr/keylayout/simple_remote_appkey.kl \
-   $(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl
+    $(LOCAL_PATH)/config/clearpad.idc:system/usr/idc/clearpad.idc \
+    $(LOCAL_PATH)/config/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
+    $(LOCAL_PATH)/config/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl \
+    $(LOCAL_PATH)/config/pmic8xxx_pwrkey.kl:system/usr/keylayout/pmic8xxx_pwrkey.kl \
+    $(LOCAL_PATH)/config/simple_remote_appkey.kl:system/usr/keylayout/simple_remote_appkey.kl \
+    $(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
