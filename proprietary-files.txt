@@ -3,7 +3,7 @@ bin/bridgemgrd
 bin/btnvtool
 bin/cal_data_manager
 bin/chargemon
-bin/clearpad_fwloader.sh
+bin/clearpad_fwloader
 bin/cnd
 bin/drmdiagapp
 bin/ds_fmc_appd
@@ -39,6 +39,7 @@ bin/usbhub
 bin/usbhub_init
 bin/wait4tad
 bin/wiperiface_v02
+etc/clearpad_fwloader.sh
 etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
 etc/fast-dormancy/fd_int_conf.txt
