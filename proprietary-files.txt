@@ -247,6 +247,7 @@ lib/libsurfaceflinger_client.so
 lib/libsys-utils.so
 lib/libta.so
 lib/libtcpfinaggr.so
+lib/libv8.so
 lib/libwifiscanner.so
 lib/libxml.so
 #lib/pageload_proc_plugin.so
