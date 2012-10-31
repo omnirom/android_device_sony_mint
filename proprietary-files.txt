@@ -62,8 +62,8 @@ etc/firmware/modem.b01
 etc/firmware/modem.b02
 etc/firmware/modem.b03
 etc/firmware/modem.b04
+etc/firmware/modem.b05
 etc/firmware/modem.b06
-etc/firmware/modem.b07
 etc/firmware/modem.flist
 etc/firmware/modem.mdt
 etc/firmware/modem_f1.b00
@@ -295,5 +295,4 @@ vendor/camera/SOI13BS0_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
-vendor/firmware/libpn544_fw_c2.so
-vendor/firmware/libpn544_fw_c3.so
+vendor/firmware/libpn544_fw.so
