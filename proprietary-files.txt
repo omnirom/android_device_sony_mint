@@ -193,13 +193,11 @@ lib/libcneqmiutils.so
 lib/libcneutils.so
 lib/libcurl.so
 lib/libdiag.so
-lib/libdnshostprio.so
 lib/libdrmdiag.so
 lib/libdsi_netctrl.so
 lib/libdsutils.so
 lib/libface.so
 lib/libgemini.so
-#lib/libgetzip.so
 lib/libgps.utils.so
 lib/libgsl.so
 lib/libidd.so
@@ -214,10 +212,10 @@ lib/libmllite.so
 lib/libmlplatform.so
 lib/libmm-abl-oem.so
 lib/libmm-abl.so
+lib/libmm-color-convertor.so
 lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
 lib/libmmcamera_statsproc30.so
-lib/libmm-color-convertor.so
 lib/libmmjpeg.so
 lib/libmpl.so
 lib/libnetmgr.so
@@ -246,13 +244,9 @@ lib/libsensor1.so
 lib/libsurfaceflinger_client.so
 lib/libsys-utils.so
 lib/libta.so
-lib/libtcpfinaggr.so
 lib/libv8.so
 lib/libwifiscanner.so
 lib/libxml.so
-#lib/pageload_proc_plugin.so
-lib/pp_proc_plugin.so
-lib/qnet-plugin.so
 lib/sysmon/sysmon_batt_therm.so
 lib/sysmon/sysmon_charge_current_limit_level0.so
 lib/sysmon/sysmon_charge_current_limit_level1.so
@@ -284,7 +278,6 @@ lib/sysmon/sysmon_usb_current_limit_level2.so
 lib/sysmon/sysmon_usb_current_limit_level3.so
 lib/sysmon/sysmon_usb_current_limit_level4.so
 lib/sysmon/sysmon_xo_therm.so
-lib/tcp-connections.so
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
 vendor/camera/KMO13BS0_BU6456.dat
