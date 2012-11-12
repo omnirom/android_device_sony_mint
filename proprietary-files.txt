@@ -12,7 +12,6 @@ bin/fm_qsoc_patches
 bin/fmconfig
 bin/fota-snoop
 bin/hci_qcomm_init
-bin/illumination_service
 bin/iw
 bin/mm-pp-daemon
 bin/mpdecision
@@ -203,7 +202,6 @@ lib/libgsl.so
 lib/libidd.so
 lib/libidl.so
 lib/libkeyctrl.so
-lib/liblights-core.so
 lib/libloc_adapter.so
 lib/libloc_api_v02.so
 lib/libloc_eng.so
