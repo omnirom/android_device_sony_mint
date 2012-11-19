@@ -1,0 +1,22 @@
+on boot
+    # Panel backlight
+    chown system system /sys/class/leds/led_1-lcd/brightness
+    chmod 660 /sys/class/leds/led_1-lcd/brightness
+
+    # LED
+    chown system system /sys/class/leds/led_7-rgb1-red/brightness
+    chmod 660 /sys/class/leds/led_7-rgb1-red/brightness
+    chown system system /sys/class/leds/led_8-rgb2-green/brightness
+    chmod 660 /sys/class/leds/led_8-rgb2-green/brightness
+    chown system system /sys/class/leds/led_9-rgb3-blue/brightness
+    chmod 660 /sys/class/leds/led_9-rgb3-blue/brightness
+    chown system system /sys/class/leds/led_7-rgb1-red/trigger
+    chmod 660 /sys/class/leds/led_7-rgb1-red/trigger
+    chown system system /sys/class/leds/led_8-rgb2-green/trigger
+    chmod 660 /sys/class/leds/led_8-rgb2-green/trigger
+    chown system system /sys/class/leds/led_9-rgb3-blue/trigger
+    chmod 660 /sys/class/leds/led_9-rgb3-blue/trigger
+
+    # Vibrator
+    chown system system /sys/devices/i2c-12/12-0049/intensity
+    chmod 666 /sys/devices/i2c-12/12-0049/intensity

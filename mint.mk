@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/sysmon.cfg:system/etc/sysmon.cfg
 
+# Device specific init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc
+
 # USB function switching
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
