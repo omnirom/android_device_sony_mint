@@ -2,20 +2,30 @@ on boot
     # Panel backlight
     chown system system /sys/class/leds/led_1-lcd/brightness
     chmod 660 /sys/class/leds/led_1-lcd/brightness
+    chown system system /sys/class/leds/led_2-lcd/brightness
+    chmod 660 /sys/class/leds/led_2-lcd/brightness
 
     # LED
     chown system system /sys/class/leds/led_7-rgb1-red/brightness
     chmod 660 /sys/class/leds/led_7-rgb1-red/brightness
+    chown system system /sys/class/leds/led_7-rgb1-red/use_pattern
+    chmod 660 /sys/class/leds/led_7-rgb1-red/use_pattern
     chown system system /sys/class/leds/led_8-rgb2-green/brightness
     chmod 660 /sys/class/leds/led_8-rgb2-green/brightness
+    chown system system /sys/class/leds/led_8-rgb2-green/use_pattern
+    chmod 660 /sys/class/leds/led_8-rgb2-green/use_pattern
     chown system system /sys/class/leds/led_9-rgb3-blue/brightness
     chmod 660 /sys/class/leds/led_9-rgb3-blue/brightness
-    chown system system /sys/class/leds/led_7-rgb1-red/trigger
-    chmod 660 /sys/class/leds/led_7-rgb1-red/trigger
-    chown system system /sys/class/leds/led_8-rgb2-green/trigger
-    chmod 660 /sys/class/leds/led_8-rgb2-green/trigger
-    chown system system /sys/class/leds/led_9-rgb3-blue/trigger
-    chmod 660 /sys/class/leds/led_9-rgb3-blue/trigger
+    chown system system /sys/class/leds/led_9-rgb3-blue/use_pattern
+    chmod 660 /sys/class/leds/led_9-rgb3-blue/use_pattern
+    chown system system /sys/devices/i2c-10/10-0040/als_on
+    chmod 660 /sys/devices/i2c-10/10-0040/als_on
+    chown system system /sys/devices/i2c-10/10-0040/pattern_data
+    chmod 660 /sys/devices/i2c-10/10-0040/pattern_data
+    chown system system /sys/devices/i2c-10/10-0040/pattern_delay
+    chmod 660 /sys/devices/i2c-10/10-0040/pattern_delay
+    chown system system /sys/devices/i2c-10/10-0040/pattern_duration_secs
+    chmod 660 /sys/devices/i2c-10/10-0040/pattern_duration_secs
 
     # Vibrator
     chown system system /sys/devices/i2c-12/12-0049/intensity
