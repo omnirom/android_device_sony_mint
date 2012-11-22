@@ -37,7 +37,7 @@ bin/usbeng
 bin/usbhub
 bin/usbhub_init
 bin/wait4tad
-bin/wiperiface_v02
+bin/wiperiface_v02:bin/wiperiface
 etc/clearpad_fwloader.sh
 etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
@@ -286,4 +286,4 @@ vendor/camera/SOI13BS0_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
-vendor/firmware/libpn544_fw.so
+vendor/firmware/libpn544_fw_c3.so:vendor/firmware/libpn544_fw.so
