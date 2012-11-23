@@ -149,8 +149,6 @@ etc/firmware/wcnss.mdt
 etc/firmware/wlan/prima/WCNSS_cfg.dat
 etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-etc/wifi/gsm_domains.conf
-etc/wifi/wpa_supplicant.conf
 lib/egl/eglsubAndroid.so
 lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv1_CM_adreno200.so
