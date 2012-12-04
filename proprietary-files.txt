@@ -163,6 +163,7 @@ lib/hw/sensors.default.so
 lib/libC2D2.so
 lib/libMPU3050.so
 lib/libMiscTaAccessor.so
+lib/libOpenCL.so
 lib/libOpenVG.so
 lib/libQSEEComAPI.so
 lib/lib_asb_tee.so
