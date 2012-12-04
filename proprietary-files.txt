@@ -37,7 +37,6 @@ bin/usbeng
 bin/usbhub
 bin/usbhub_init
 bin/wait4tad
-bin/wiperiface_v02:bin/wiperiface
 etc/clearpad_fwloader.sh
 etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
@@ -159,7 +158,6 @@ lib/egl/libGLESv2_adreno200.so
 lib/egl/libplayback_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 #lib/hw/camera.msm8960.so
-lib/hw/gps.sony.so
 lib/hw/nfc.msm8960.so
 lib/hw/sensors.default.so
 lib/libC2D2.so
@@ -199,14 +197,10 @@ lib/libdsi_netctrl.so
 lib/libdsutils.so
 #lib/libface.so
 lib/libgemini.so
-lib/libgps.utils.so
 lib/libgsl.so
 lib/libidd.so
 lib/libidl.so
 lib/libkeyctrl.so
-lib/libloc_adapter.so
-lib/libloc_api_v02.so
-lib/libloc_eng.so
 lib/libmiscta.so
 lib/libmllite.so
 lib/libmlplatform.so
