@@ -31,7 +31,7 @@ bin/ta_param_loader
 bin/ta_qmi_service
 bin/tad
 bin/taimport
-bin/time_daemon
+bin/thermald
 bin/updatemiscta
 bin/usbeng
 bin/usbhub
