@@ -16,7 +16,6 @@ bin/iw
 bin/mm-pp-daemon
 bin/mpdecision
 bin/netmgrd
-bin/profiler_daemon
 bin/qmiproxy
 bin/qmuxd
 bin/quipc_igsn
@@ -217,10 +216,8 @@ lib/libnetmgr.so
 lib/libnl.so
 #lib/liboemcamera.so
 lib/libpin-cache.so
-lib/libprofiler_msmadc.so
 lib/libprotobuf-c.so
 lib/libqc-opt.so
-lib/libqcci_adc.so
 lib/libqdi.so
 lib/libqdp.so
 lib/libqmi.so
