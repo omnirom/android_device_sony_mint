@@ -201,6 +201,7 @@ lib/libgsl.so
 lib/libidd.so
 lib/libidl.so
 lib/libkeyctrl.so
+lib/libloc_api_v02.so
 lib/libmiscta.so
 lib/libmllite.so
 lib/libmlplatform.so
