@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-char const*const LCD_BACKLIGHT_FILE		= "/sys/class/leds/led_1-lcd/brightness";
-char const*const LCD_BACKLIGHT2_FILE		= "/sys/class/leds/led_2-lcd/brightness";
-char const*const RED_LED_FILE			= "/sys/class/leds/led_7-rgb1-red/brightness";
-char const*const GREEN_LED_FILE			= "/sys/class/leds/led_8-rgb2-green/brightness";
-char const*const BLUE_LED_FILE			= "/sys/class/leds/led_9-rgb3-blue/brightness";
+char const*const LCD_BACKLIGHT_FILE		= "/sys/class/leds/lcd-backlight_1/brightness";
+char const*const LCD_BACKLIGHT2_FILE		= "/sys/class/leds/lcd-backlight_2/brightness";
+char const*const RED_LED_FILE			= "/sys/class/leds/pwr-red/brightness";
+char const*const GREEN_LED_FILE			= "/sys/class/leds/pwr-green/brightness";
+char const*const BLUE_LED_FILE			= "/sys/class/leds/pwr-blue/brightness";
 
 char const*const ALS_FILE			= "/sys/devices/i2c-10/10-0040/als_on";
-char const*const LED_FILE_TRIGGER[]		= {
-"/sys/class/leds/led_7-rgb1-red/use_pattern",
-"/sys/class/leds/led_8-rgb2-green/use_pattern",
-"/sys/class/leds/led_9-rgb3-blue/use_pattern",
+char const*const LED_FILE_TRIGGER[] 		= {
+	"/sys/class/leds/pwr-red/use_pattern",
+	"/sys/class/leds/pwr-green/use_pattern",
+	"/sys/class/leds/pwr-blue/use_pattern",
 };
 
 char const*const LED_FILE_PATTERN		= "/sys/devices/i2c-10/10-0040/pattern_data";
