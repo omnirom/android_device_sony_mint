@@ -34,6 +34,6 @@ char const*const LED_FILE_DELAYOFF		= "/sys/devices/i2c-10/10-0040/pattern_durat
 
 char const*const ON				= "1";
 char const*const OFF				= "0";
-char const*const PATTERN			= "0x00000001";
+char const*const PATTERN			= "0x0000ffff";
 char const*const DELAYON			= "1";
-char const*const DELAYOFF			= "8";
+char const*const DELAYOFF			= "1";
