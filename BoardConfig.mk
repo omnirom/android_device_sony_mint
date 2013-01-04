@@ -1,5 +1,3 @@
-USE_CAMERA_STUB := true
-
 # inherit from the proprietary version
 -include vendor/sony/mint/BoardConfigVendor.mk
 
