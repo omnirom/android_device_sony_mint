@@ -29,7 +29,6 @@ bin/wait4tad
 etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
 etc/fast-dormancy/fd_int_conf.txt
-etc/firmware/cyttsp_8960_cdp.hex
 etc/firmware/dsps.b00
 etc/firmware/dsps.b01
 etc/firmware/dsps.b02
