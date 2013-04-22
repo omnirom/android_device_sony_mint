@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \
     $(LOCAL_PATH)/config/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+#Build DeviceParts
+PRODUCT_PACKAGES += \
+    XperiaSettings
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/sony/mint/mint-vendor.mk)
