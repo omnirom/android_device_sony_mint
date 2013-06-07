@@ -21,7 +21,10 @@
 # lines, full and maguro, hence its name.
 #
 #
- 
+
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Torch
 PRODUCT_PACKAGES := \
     Torch
