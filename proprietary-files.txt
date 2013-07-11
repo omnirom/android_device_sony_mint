@@ -212,4 +212,3 @@ vendor/camera/SOI13BS0_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
-vendor/firmware/libpn544_fw_c3.so:vendor/firmware/libpn544_fw.so
