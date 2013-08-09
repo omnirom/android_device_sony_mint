@@ -25,5 +25,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 TARGET_OTA_ASSERT_DEVICE := LT30p,mint
 
+BOARD_HARDWARE_CLASS := device/sony/mint/cmhw
+
 # inherit from the proprietary version
 -include vendor/sony/mint/BoardConfigVendor.mk
