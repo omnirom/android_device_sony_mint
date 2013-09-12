@@ -33,6 +33,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Configuration scripts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf \
+    $(LOCAL_PATH)/rootdir/system/etc/sysmon.cfg:system/etc/sysmon.cfg \
     $(LOCAL_PATH)/rootdir/system/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
 
