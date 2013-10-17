@@ -25,18 +25,11 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-# Torch
-PRODUCT_PACKAGES := \
-    Torch
+# Get the long list of APNs
+PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Common Sony Resources
-$(call inherit-product, device/sony/common/resources-xhdpi.mk)
-
-# Inherit from mint device
-$(call inherit-product, device/sony/mint/mint.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_mint
@@ -44,3 +37,9 @@ PRODUCT_DEVICE := mint
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia T
+
+# Inherit from mint device
+$(call inherit-product, device/sony/mint/device.mk)
+
+# Common Sony Resources
+$(call inherit-product, device/sony/common/resources-xhdpi.mk)

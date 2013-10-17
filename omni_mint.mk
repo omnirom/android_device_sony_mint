@@ -18,7 +18,7 @@
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
 # Get the long list of APNs
-PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := vendor/omni/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -27,9 +27,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/custom/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/sony/mint/full_mint.mk)
+$(call inherit-product, device/sony/mint/device.mk)
 
-PRODUCT_NAME := custom_mint
+PRODUCT_NAME := omni_mint
 PRODUCT_DEVICE := mint
 PRODUCT_BRAND := sony
 PRODUCT_MODEL := Xperia T
@@ -39,3 +39,6 @@ PRODUCT_MANUFACTURER := Sony
 TARGET_KERNEL_CONFIG := cm_blue_mint_defconfig
 TARGET_VARIANT_CONFIG := cm_blue_mint_defconfig
 TARGET_SELINUX_CONFIG := cm_blue_mint_defconfig
+
+# Common Sony Resources
+$(call inherit-product, device/sony/common/resources-xhdpi.mk)

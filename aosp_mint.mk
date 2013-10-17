@@ -13,6 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-$(call inherit-product, device/sony/mint/custom_mint.mk)
+$(call inherit-product, device/sony/mint/full_mint.mk)
 
 PRODUCT_NAME := aosp_mint
