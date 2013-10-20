@@ -17,6 +17,9 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Get the long list of APNs
 PRODUCT_COPY_FILES := vendor/omni/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
@@ -41,4 +44,4 @@ TARGET_VARIANT_CONFIG := cm_blue_mint_defconfig
 TARGET_SELINUX_CONFIG := cm_blue_mint_defconfig
 
 # Common Sony Resources
-$(call inherit-product, device/sony/common/resources-xhdpi.mk)
+$(call inherit-product, device/sony/common/resources.mk)

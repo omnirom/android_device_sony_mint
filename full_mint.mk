@@ -42,4 +42,4 @@ PRODUCT_MODEL := Xperia T
 $(call inherit-product, device/sony/mint/device.mk)
 
 # Common Sony Resources
-$(call inherit-product, device/sony/common/resources-xhdpi.mk)
+$(call inherit-product, device/sony/common/resources.mk)
