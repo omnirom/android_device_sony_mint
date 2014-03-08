@@ -19,10 +19,12 @@ bin/ta_param_loader
 bin/ta_qmi_service
 bin/taimport
 bin/taimportx
+bin/tad
 bin/thermald
 bin/updatemiscta
 bin/usbhub
 bin/usbhub_init
+bin/wait4tad
 etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
 etc/fast-dormancy/fd_int_conf.txt
@@ -162,12 +164,9 @@ lib/libidd.so
 lib/libidl.so
 lib/libkeyctrl.so
 lib/liblights-core.so
+lib/libloc_adapter.so
 lib/libloc_api_v02.so
-lib/libloc_core.so
-lib/libloc_ds_api.so
 lib/libloc_eng.so
-lib/libloc_xtra.so
-lib/libloc_ext.so
 lib/libmercury.so
 lib/libmiscta.so
 lib/libmllite.so
@@ -212,6 +211,7 @@ lib/libsys-utils.so
 lib/libsysmon_idd.so
 lib/libta.so
 lib/libtime_genoff.so
+lib/libv8.so
 lib/libxml.so
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
