@@ -43,5 +43,11 @@ TARGET_KERNEL_CONFIG := cm_blue_mint_defconfig
 TARGET_VARIANT_CONFIG := cm_blue_mint_defconfig
 TARGET_SELINUX_CONFIG := cm_blue_mint_defconfig
 
+# Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=LT30p \
+    BUILD_FINGERPRINT=Sony/LT30p/LT30p:4.3/9.2.A.0.295/2P7_tg:user/release-keys \
+    PRIVATE_BUILD_DESC="LT30p-user 4.3 JB-MR2-BLUE-CAF-140119-1326 51 test-keys"
+
 # Common Sony Resources
 $(call inherit-product, device/sony/common/resources.mk)
